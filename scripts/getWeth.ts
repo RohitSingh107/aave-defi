@@ -1,6 +1,6 @@
 import { ethers, network } from "hardhat"
 
-const AMOUNT = ethers.utils.parseEther("0.02")
+export const AMOUNT = ethers.utils.parseEther("0.02")
 
 export async function getWeth() {
   const deployers = await ethers.getSigners()
